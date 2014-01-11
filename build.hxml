@@ -1,0 +1,10 @@
+
+template/build.hxml
+
+--next
+-main com.postite.microbe.App
+-cp MMVCBAZ
+-swf microbe.swf
+-lib mmvc
+-lib msignal
+-cmd open microbe.swf

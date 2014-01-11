@@ -1,0 +1,18 @@
+<html lang="fr">
+<head>
+	<title>back</title>
+	<script type="text/javascript" src="/client@if(!debug){-min}.js"></script>
+	<style></style>
+</head>
+
+
+<body>
+<section id="menu">@for(item in menu){
+<a href="@item.link">@item.label</a>
+
+}
+</section>
+<section id="content"></section>
+<div id="data" microbe-data="@data"/>
+</body>
+</html>
