@@ -1,0 +1,6 @@
+-main Main
+-cp template
+-lib erazor
+-lib hscript
+-neko run.n
+-cmd neko run.n
